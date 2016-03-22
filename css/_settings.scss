@@ -2,22 +2,26 @@
 $mainColor: #00FFDD; // not quite cyan or aqua
 $backgroundColor: $mainColor;
 $backgroundColorFade: transparentize($backgroundColor,0.7);
-$topBarColor: #9CCC65; // not quite YellowGreen
-$topBarColorFade: transparentize($navbarColor,0.7);
+$cardColor: $mainColor;
+$cardColorFade: transparentize($cardColor,0.1);
+$secondColor: #9CCC65; // not quite YellowGreen
+$secondColorFade: transparentize($secondColor,0.7);
 $textColor: #000; // black
 $logoColor: #005596; // not quite navy blue
-
 
 // fonts
 $bodyFontStack: Lato, sans-serif;
 $headerFontStack: $bodyFontStack;
 $logoFontStack: Droid Sans, sans-serif;
 
-// font sizes
+  // font sizes
 $fontSize: 12pt;
-$headerFont: 4*$fontSize-1;
-$codeSize: $fontSize*2
+$headerFont: 4*$fontSize - 1;
+$codeSize: $fontSize*2;
 $navbarFontSize: 1.25*$fontSize;
+
+  // font weights
+$heavy: 900;
 
 // block sizes
 $bodyHeight: 2000px;
