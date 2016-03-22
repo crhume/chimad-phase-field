@@ -13,7 +13,7 @@ body {
 .header {
     font-size: $headerFont;
     font-family: $headerFontStack;
-    font-weight: 900;
+    font-weight: $heavy;
 }
 
 /* .navbar-default .navbar-nav > .active > a, */
