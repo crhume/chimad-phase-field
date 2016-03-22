@@ -1,7 +1,7 @@
 @import: 'settings';
 
 body {
-    min-height: 2000px;
+    min-height: $bodyHeight;
     font-family: $textFontStack;
     font-size: $fontSize;
     /* display: -webkit-box; */
@@ -23,31 +23,31 @@ body {
 /*     background-color: rgba(0, 255, 221, 1); */
 /* } */
 
-.top-buffer { margin-top: 40px; }
-.small-buffer { margin-top: 10px; }
+.top-buffer { margin-top: $topBuffer; }
+.small-buffer { margin-top: $smallBuffer; }
 
 .top-bar {
-    border-top: 3px solid #9ccc65;
+    border-top: 1.5*$iconPad solid $topBarColor;
 }
 
 .card {
     background-color: $transparentize($mainColor,0.1);
-    padding: 10px;
-    margin-bottom: 25px;
+    padding: $smallBuffer;
+    margin-bottom: $bottomMargin;
 }
 
 .card-overview {
-    padding: 10px;
-    margin-bottom: 25px;
+    padding: $smallBuffer;
+    margin-bottom: $bottomMargin;
 }
 
 
 .indent {
-    margin-left: 10px;
+    margin-left: $smallBuffer;
 }
 
 .codeheader {
-    font-size: 24px;
+    font-size: $codeSize;
 }
 
 .logo {
@@ -58,23 +58,23 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    padding-top: 8px;
+    padding-top: 0.8*$smallBuffer;
 }
 
 .sideheader {
-    margin-top: 10px;
+    margin-top: $smallBuffer;
 }
 
 .icon {
     /* padding-bottom: 13px; */
-    margin-bottom: 13px;
-    padding-bottom: -13px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin-bottom: $medBuffer;
+    padding-bottom: -$medBuffer;
+    padding-left: 2*$iconPad;
+    padding-right: 2*$iconPad;
 }
 
 .chimad-icon {
-    padding: 2px;
+    padding: $iconPad;
 }
 
 .icons {
@@ -90,7 +90,7 @@ body {
 }
 
 .chimad-logo {
-    font-family: "Droid Sans";
+    font-family: $logoFontStack;
     font-weight: Bold !important;
     color: $logoColor !important;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-text {
-    font-size: 16pt;
+    font-size: $navbarFontSize;
 }
 /* .navbar { */
 /*     font-size: 12pt; */
