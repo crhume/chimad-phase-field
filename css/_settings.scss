@@ -2,8 +2,8 @@
 $mainColor: #00FFDD; // not quite cyan or aqua
 $backgroundColor: $mainColor;
 $backgroundColorFade: $transparentize($backgroundColor,0.3);
-$navbarFolor: $mainColor;
-$navbarColor-fade: $transparentize($navbarColor,0.3);
+$topBarColor: #9CCC65; // not quite YellowGreen
+$topBarColorFade: $transparentize($navbarColor,0.3);
 $textColor: #000; // black
 $logoColor: #005596; // not quite navy blue
 
@@ -16,4 +16,13 @@ $logoFontStack: Droid Sans, sans-serif;
 // font sizes
 $fontSize: 12pt;
 $headerFont: 4*$fontSize-1;
+$codeSize: $fontSize*2
+$navbarFontSize: 1.25*$fontSize;
 
+// block sizes
+$bodyHeight: 2000px;
+$topBuffer: 40px;
+$smallBuffer: $topBuffer/4;
+$bottomMargin: 25px;
+$iconPad: 2px;
+$medBuffer: 13px;
