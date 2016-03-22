@@ -2,7 +2,7 @@
 
 body {
     min-height: $bodyHeight;
-    font-family: $textFontStack;
+    font-family: $bodyFontStack;
     font-size: $fontSize;
     /* display: -webkit-box; */
     /* display: -webkit-flex; */
@@ -27,11 +27,11 @@ body {
 .small-buffer { margin-top: $smallBuffer; }
 
 .top-bar {
-    border-top: 1.5*$iconPad solid $topBarColor;
+    border-top: 1.5*$iconPad solid $secondColor;
 }
 
 .card {
-    background-color: transparentize($mainColor,0.9);
+    background-color: $cardColorFade;
     padding: $smallBuffer;
     margin-bottom: $bottomMargin;
 }
