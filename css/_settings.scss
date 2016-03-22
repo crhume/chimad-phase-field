@@ -1,0 +1,19 @@
+// colors
+$mainColor: #00FFDD; // not quite cyan or aqua
+$backgroundColor: $mainColor;
+$backgroundColorFade: $transparentize($backgroundColor,0.3);
+$navbarFolor: $mainColor;
+$navbarColor-fade: $transparentize($navbarColor,0.3);
+$textColor: #000; // black
+$logoColor: #005596; // not quite navy blue
+
+
+// fonts
+$bodyFontStack: Lato, sans-serif;
+$headerFontStack: $bodyFontStack;
+$logoFontStack: Droid Sans, sans-serif;
+
+// font sizes
+$fontSize: 12pt;
+$headerFont: 4*$fontSize-1;
+
