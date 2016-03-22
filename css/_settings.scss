@@ -1,9 +1,9 @@
 // colors
 $mainColor: #00FFDD; // not quite cyan or aqua
 $backgroundColor: $mainColor;
-$backgroundColorFade: $transparentize($backgroundColor,0.3);
+$backgroundColorFade: transparentize($backgroundColor,0.3);
 $topBarColor: #9CCC65; // not quite YellowGreen
-$topBarColorFade: $transparentize($navbarColor,0.3);
+$topBarColorFade: transparentize($navbarColor,0.3);
 $textColor: #000; // black
 $logoColor: #005596; // not quite navy blue
 
